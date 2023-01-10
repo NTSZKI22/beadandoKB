@@ -1,0 +1,7 @@
+Invalid configuration object. Webpack has been initialised using a configuration object that does not match the API schema.
+ - configuration.optimization.splitChunks.cacheGroups['styles-public\css\app'] has an unknown property 'type'. These properties are valid:
+   object { automaticNameDelimiter?, automaticNameMaxLength?, automaticNamePrefix?, chunks?, enforce?, enforceSizeThreshold?, filename?, maxAsyncRequests?, maxInitialRequests?, maxSize?, minChunks?, minSize?, name?, priority?, reuseExistingChunk?, test? }
+ - configuration.output.chunkFilename should be a string.
+   -> The filename of non-entry chunks as relative path inside the `output.path` directory.
+ - configuration.stats has an unknown property 'preset'. These properties are valid:
+   object { all?, assets?, assetsSort?, builtAt?, cached?, cachedAssets?, children?, chunkGroups?, chunkModules?, chunkOrigins?, chunks?, chunksSort?, colors?, context?, depth?, entrypoints?, env?, errorDetails?, errors?, exclude?, excludeAssets?, excludeModules?, hash?, logging?, loggingDebug?, loggingTrace?, maxModules?, moduleAssets?, moduleTrace?, modules?, modulesSort?, nestedModules?, optimizationBailout?, outputPath?, performance?, providedExports?, publicPath?, reasons?, source?, timings?, usedExports?, version?, warnings?, warningsFilter? }
